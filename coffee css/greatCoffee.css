@@ -11,7 +11,7 @@
 }
 
 .font-fraunces {
-      font-family: 'Fraunces 9pt';
+      font-family: 'Fraunces', serif;
       font-weight: 900;
 }
 
@@ -72,7 +72,7 @@
       margin-top: 30px;
 }
 
-.banner__btn {
+.all-btn {
       background: #0E8784;
       border-radius: 6px;
       border: none;
@@ -174,4 +174,103 @@
       text-align: center;
       color: #FEFCF7;
       margin-top: 24px;
+}
+
+/* Footter-row-2 boshlandi*/
+.container-2 {
+      width: 1045px;
+      padding-left: 45px;
+}
+
+.footer-row-2-name {
+      font-size: 24px;
+      color: #83888F;
+      margin-top: 200px;
+}
+
+.footer-row-2-circle {
+      display: flex;
+      justify-content: space-between;
+      width: 730px;
+      height: 35px;
+      margin-top: 80px;
+      position: relative;
+}
+
+.circle {
+      z-index: 2;
+}
+
+.line {
+      position: absolute;
+      top: 45%;
+      background: #FDD6BA;
+      z-index: 1;
+      width: 730px;
+      border: 2px solid #FDD6BA;
+}
+
+/* Footerni 3-qatori boshlandi*/
+.footer-row-3 {
+      margin-top: 67px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 95px;
+}
+
+.footer-col-3__number {
+      font-size: 72px;
+      color: #FDD6BA;
+}
+
+.footer-col-3__theme {
+      font-size: 32px;
+      color: #333D4B;
+      margin-top: 38px;
+}
+
+.footer-col-3__text {
+      font-size: 16px;
+      color: #333D4B;
+      margin-top: 42px;
+}
+
+/*footer-nav boshlandi*/
+.footer-nav {
+      background-color: #2C343E;
+      height: 120px;
+      width: 100%;
+      margin-top: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.footer-navbar {
+      display: flex;
+      height: 26px;
+      align-items: center;
+      list-style: none;
+      margin-left: 45px;
+}
+
+.footer-logo-img {
+      height: 25px;
+}
+
+.footer-navbar__item {
+      font-size: 12px;
+      letter-spacing: 0.923077px;
+      color: #83888F;
+      margin-left: 32px;
+}
+.one{
+      margin-left: 100px;
+}
+
+.footer-nav-icons {
+      margin-right: 45px;
+}
+.footer-nav-icons img{
+      margin-right: 24px;
 }
