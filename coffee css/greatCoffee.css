@@ -24,6 +24,9 @@
       font-family: 'Barlow', sans-serif;
       font-weight: 400;
 }
+.navbar-menu{
+      display: none;
+}
 
 /* Header boshlandi*/
 /* Navbar boshlandi*/
@@ -91,6 +94,7 @@
 
 .row-text {
       display: flex;
+      flex-wrap: wrap;
 }
 
 .col-text {
@@ -140,6 +144,7 @@
 
 .footer-row {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
 }
 
