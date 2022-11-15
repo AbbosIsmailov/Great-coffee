@@ -1,18 +1,156 @@
-*{
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-}
 @media screen and (max-width: 768px) {
-      .container-phone{
-            width: 90% ;
+      .container-phone {
+            width: 90%;
             margin: 0 auto;
       }
-      .navbar{
+
+      .navbar {
             display: none;
       }
-      .navbar-menu{
+
+      .navbar-menu {
             display: block;
             height: 15px;
       }
+
+      .banner {
+            padding: 0;
+            text-align: center;
+            padding-bottom: 100px;
+      }
+
+      .banner__name {
+            font-size: 40px;
+            line-height: 40px;
+            padding-top: 100px;
+      }
+
+      .banner__text {
+            font-size: 15px;
+      }
+
+      /*body qismi boshlandi*/
+      .body {
+            /* margin-top: 140px; */
+      }
+
+      .col-text {
+            width: 279px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 148px;
+      }
+
+      .body-col__text {
+            text-align: center;
+            margin-top: -46px;
+      }
+
+      /*footer boshlandi*/
+      .footer {
+            margin-top: 780px;
+            height: 910px;
+      }
+
+      .footer-name {
+            font-size: 28px;
+      }
+
+      .footer-text {
+            font-size: 15px;
+            width: 279px;
+            margin: 24px auto;
+      }
+
+      /*footer-row boshlandi*/
+      .footer-row {
+            width: 100%;
+      }
+
+      .footer-row__col {
+            width: 279px;
+            height: 382px;
+            display: grid;
+            justify-content: center;
+      }
+
+      .footer-row__img {
+            position: absolute;
+            left: -40px;
+
+      }
+
+      .footer-row__matn {
+            margin-top: 100px;
+            width: 255px;
+            left: 10px;
+      }
+
+      .footer-col-theme {
+            text-align: center;
+      }
+
+      .footer-col-text {
+            text-align: center;
+      }
+
+      .footer-row-2-circle {
+            display: none;
+      }
+
+      .footer-row-3 {
+            margin-top: 24px;
+            grid-template-columns: 1fr;
+      }
+
+      .footer-col-3 {
+            margin-top: 56px;
+            text-align: center;
+      }
+
+      .footer-col-3__theme {
+            margin-top: 24px;
+      }
+
+      .footer-col-3__text {
+            margin-top: 24px;
+      }
+
+      .footer-btn {
+            margin-left: 20px;
+      }
+
+      /*footer-nav*/
+      .footer-nav {
+            height: 400px;
+            justify-content: start;
+      }
+
+      .footer-logo-img {
+            margin-top: 30px;
+      }
+
+      .footer-navbar {
+            margin-top: 50px;
+            width: 279px;
+            height: 93px;
+            flex-direction: column;
+      }
+
+      .footer-navbar__item:nth-child(2){
+            margin-left: 100px;
+      }
+      .footer-navbar__item:nth-child(3){
+            margin-left: 100px;
+      }
+      .footer-navbar__item {
+            margin-top: 24px;
+      }
+
+      .footer-nav-icons{
+            margin-top: 80px;
+      }
+
+
 }

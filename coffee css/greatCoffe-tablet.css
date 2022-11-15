@@ -1,19 +1,126 @@
-*{
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-}
-@media only screen and (max-width: 992px)  {
-      .container-media{
+@media only screen and (max-width: 992px) {
+      .container-media {
             width: 689px;
             margin: 0 auto;
       }
-      .banner-name{
+
+      .banner-name {
             font-size: 48px;
             line-height: 48px;
       }
-      .banner-text{
+
+      .banner-text {
             font-size: 15px;
       }
-      
+
+      /*banner qismi tugadi*/
+      .row-text {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 144px;
+            margin-bottom: 288px;
+      }
+
+      .qop {
+            width: 255px;
+            height: 193px;
+      }
+
+      .col-text {
+            display: flex;
+            text-align: start;
+            width: 573px;
+            height: 193px;
+            margin-top: 45px;
+      }
+
+      .col-text__words {
+            width: 282px;
+            height: 106px;
+      }
+      .footer-name{
+            margin-top: -65px;
+      }
+      .row-text {
+            width: 573px;
+            height: 868px;    
+      }
+      /*footer-row*/
+      .footer-row{
+            margin-top: 50px;
+      }
+      .footer-row__col{
+            width: 570px;   
+            display: flex;
+            align-items: center;
+            height: 180px;
+            position: relative;
+            margin-top: 24px;
+}
+      .footer-row__img{
+            position: absolute;
+            top: -15px;
+            left: -80px;
+            width: 55px;
+      }
+      .footer-row__matn{
+            position: absolute;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 350px;            
+      }
+      .footer-col-theme{
+            font-size: 24px;
+            margin-top: 10px;
+            text-align: start;
+      }
+      .footer-col-text{
+            font-size: 15px;
+            margin-top: 26px;
+            text-align: start;
+      }
+      .matn{
+            margin-bottom: 15px;
+      }
+      /*footer-row-2*/
+      .footer-row-2-circle{
+            width: 450px;
+      }
+      .line{
+            width: 445px;
+      }
+      .footer-row-3{
+            margin-top: 50px;
+            grid-column-gap: 0;
+      }
+      .footer-col-3{
+            width: 200px;
+      }
+
+      .footer-col-3__theme{
+            font-size: 28px;
+            width: 200px;
+      }
+      .footer-col-3__text{
+
+            width: 200px;
+      }
+      /*footer-nav*/
+      .footer-nav{
+            flex-direction: column;
+            justify-content: center;
+            height: 270px;
+      }
+      .footer-logo{
+            margin-top: 50px;
+      }
+      .footer-navbar{
+            margin-top: 30px;
+            margin-right: 130px;
+      }
+      .footer-nav-icons{
+            margin-top: 60px;
+            margin-left: 60px;
+      }
 }
