@@ -1,0 +1,474 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.font-fraunces {
+      font-family: 'Fraunces', serif;
+      font-weight: 900;
+}
+
+.font-barlow {
+      font-family: 'Barlow', sans-serif;
+      font-weight: 400;
+}
+
+.container {
+      width: 1280px;
+      margin: 0 auto;
+}
+
+.navbar-icon{
+      display: none;
+}
+/*unversal classlar tugadi*/
+/*header boshlandi*/
+
+.nav {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.logo {
+      height: 24px;
+}
+
+.navbar {
+      display: flex;
+      list-style: none;
+}
+
+.navbar__item {
+      font-weight: 700 !important;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #83888F;
+      margin-right: 30px;
+}
+
+/*banner qismiga ottik*/
+.banner {
+      
+      height: 450px;
+      background-image: url('../photos/background-img.png');
+      border-radius: 10px;
+      padding-left: 85px;
+      padding-top: 137px;
+}
+
+.banner__site-name {
+      font-size: 40px;
+      line-height: 48px;
+      color: #FEFCF7;
+}
+
+.banner__site-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: #FEFCF7;
+      margin-top: 24px;
+      width: 445px;
+}
+
+/*banner qismi tugadi*/
+/*body qism boshlandi*/
+
+.body {
+      margin-top: 160px;
+}
+
+.body-row-1 {
+      height: 520px;
+      display: grid;
+      grid-column-gap: 90px;
+      grid-template-columns: 1fr 1fr;
+      width: 1110px;
+      margin: 0 auto;
+}
+
+.person-coffee {
+      width: 445px;
+      border-radius: 5px;
+}
+
+.person-coffee-tablet {
+      display: none;
+}
+
+.our-commitment {
+      margin-top: 90px;
+      font-size: 40px;
+      color: #333D4B;
+}
+
+.col-right__text {
+      font-size: 16px;
+      line-height: 26px;
+      color: #333D4B;
+      margin-top: 30px;
+}
+
+/* row-2 boshladik*/
+
+.body-row-2 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 184px;
+      background-color: #2C343E;
+      border-radius: 10px;
+}
+
+.col-left-2 {
+      margin-left: 85px;
+      width: 540px;
+}
+
+.uQuality {
+      font-size: 40px;
+      line-height: 48px;
+      color: #FEFCF7;
+      margin-top: 90px;
+}
+
+.col-left-2__text {
+      font-size: 16px;
+      line-height: 26px;
+      color: #FEFCF7;
+      margin-top: 30px;
+      margin-bottom: 90px;
+}
+
+.coffee-hart {
+      width: 370px;
+      margin-right: 85px;
+      margin-top: -90px;
+      border-radius: 8px;
+}
+
+.coffee-hart-tablet {
+      display: none;
+}
+
+/* row-3 boshlandi*/
+.body-row-3 {
+      width: 1045px;
+      height: 366px;
+      margin: 0 auto;
+}
+
+.body-row-3__heading {
+      margin-top: 160px;
+      font-size: 24px;
+      color: #83888F;
+}
+
+.col-country {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 70px;
+}
+
+.country-name {
+      margin-top: 45px;
+      font-size: 32px;
+      color: #333D4B;
+}
+
+.country-text {
+      margin-top: 24px;
+      font-size: 16px;
+      line-height: 26px;
+      color: #333D4B;
+}
+
+/* Footer boshlandi*/
+
+.footer {
+      height: 120px;
+      background: #2C343E;
+      margin-top: 168px;
+}
+
+.footer-nav {
+      margin: 0 85px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 47px;
+      margin-top: 160px;
+}
+
+.logo-white {
+      height: 24px;
+}
+
+.footer-navbar {
+      display: flex;
+      list-style: none;
+      margin-top: 5px;
+      margin-right: 280px;
+}
+
+.footer-navbar__item {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+      color: #83888F;
+      margin-left: 32px;
+}
+
+.footer-icons img {
+      margin-left: 24px;
+      margin-top: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+      .tablet-container {
+            width: 689px;
+            margin: 0 auto;
+      }
+      .banner{
+            background: url('../photos/banner-img-tablet.jpg') center center/cover;
+      }
+
+      .banner__site-name {
+            font-size: 32px;
+      }
+
+      .banner__site-text {
+            font-size: 15px;
+      }
+
+      /*body-row-1 boshlandi*/
+      .body {
+            margin-top: 144px;
+      }
+
+      .body-row-1 {
+            display: flex;
+      }
+
+      .col-left-1 {
+            width: 281px;
+      }
+
+      .person-coffee {
+            display: none;
+      }
+
+      .person-coffee-tablet {
+            display: block;
+            width: 281px;
+            height: 485px;
+      }
+
+      .our-commitment {
+            margin-top: 0;
+            font-size: 30px;
+      }
+
+      .col-right__text {
+            font-size: 15px;
+            margin-top: 10px;
+      }
+
+      .col-right-1 {
+            width: 339px;
+            margin-right: 20px;
+      }
+
+      /*body-row-2 boshlandi*/
+      .body-row-2 {
+            margin-top: 236px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+      }
+
+      .col-right-2 {
+            display: none;
+      }
+
+      .coffee-hart-tablet {
+            display: block;
+            width: 570px;
+            margin-top: -150px;
+            border-radius: 8px;
+      }
+
+      .col-left-2 {
+            margin-left: 0px;
+      }
+
+      .uQuality {
+            margin-top: 60px;
+            font-size: 32px;
+            text-align: center;
+      }
+
+      .col-left-2__text {
+            font-size: 15px;
+            margin-top: 24px;
+            margin-bottom: 60px;
+            text-align: center;
+      }
+
+      /*body-row-3 boshlandi */
+      .country-name {
+            font-size: 24px;
+      }
+
+      .country-text {
+            margin-top: 20px;
+      }
+
+      /* footer qismi boshlandi*/
+      .footer {
+            min-height: 270px;
+      }
+
+      .footer-nav {
+            margin-top: 144px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .footer-navbar {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+      }
+
+      .footer-navbar__item {
+            margin-top: 30px;
+      }
+
+      .logo-white {
+            margin-top: 50px;
+      }
+
+      .footer-icons {
+            margin-top: 60px;
+            margin-bottom: 50px;
+      }
+
+      .footer-icons img {
+            margin: 0 15px;
+      }
+}
+@media only screen and (max-width:778px) {
+      .phone-container{
+            width: 327px;
+            margin: 0 auto;
+      }
+      /*navbar boshladik*/
+      .navbar{
+            display: none;
+      }
+      .navbar-icon{
+            width: 18px;
+            display: block;
+      }
+      /*banner qismi*/
+      .banner{
+            padding-top: 110px;
+            background: url('../photos/banner-img-phone.jpg') center center/cover;
+            padding-left: 24px ;
+            padding-right: 24px;
+      }
+      .banner__site-name{
+            text-align: center;
+            font-size: 28px;
+      }
+      .banner__site-text{
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            width: 279px;
+      }
+      /*body-row-1 boshlandi*/
+      .body-row-1{
+            display: flex;
+            flex-direction: column;
+            margin-top: 120px;
+            align-items: center;
+      }
+      .person-coffee-tablet{
+            border-radius: 8px;
+            width: 100%;
+      }
+      .col-right-1{
+            margin-top: 48px;
+      }
+      .our-commitment{
+            text-align: center;
+            font-size: 32px;
+      }
+      .col-right__text{
+            text-align: center;
+            font-size: 15px;
+            line-height: 24px;
+            margin-top: 30px;
+      }
+      /**/
+      .body-row-2{
+            margin-top: 580px;
+      }
+      .coffee-hart-tablet{
+            width: 270px;
+            margin-top: -80px;
+      }
+
+      .col-left-2{
+            width: 270px;
+      }
+      .uQuality{
+            font-size: 28px;
+            line-height: 28px;
+      }
+      /*body-row-3 boshladik*/
+      .body-row-3__heading{
+            margin-top: 120px;
+            text-align: center;
+      }
+      .col-country{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+      .card-country{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+      .country-name{
+            font-size: 28px;
+      }
+      .map-2{
+            margin-top: 80px;
+      }
+      .map-3{
+            margin-top: 80px;
+      }
+      /*Footer boshladik*/
+      .footer{
+            min-height: 346px;
+            margin-top: 760px;
+      }
+
+      .footer-navbar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 15px;
+      }
+}
