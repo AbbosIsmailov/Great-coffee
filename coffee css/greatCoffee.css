@@ -4,6 +4,10 @@
       box-sizing: border-box;
 }
 
+.visually-hidden{
+      visibility: hidden;
+}
+
 /* unversal classlar  */
 .container {
       width: 1200px;
